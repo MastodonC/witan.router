@@ -1,0 +1,17 @@
+{"/api/"
+ {:dev  {:destination "127.0.0.1"
+         :port 3000}
+  :prod {:destination "witan-gateway.marathon.mesos"
+         :port 3000}}
+
+ "/data/"
+ {:dev  {:destination "127.0.0.1"
+         :port 4000}
+  :prod {:destination "witan-data.marathon.mesos"
+         :port 4000}}
+
+ "/login/"
+ {:dev  {:destination "127.0.0.1"
+         :port 5000}
+  :prod {:destination "witan-auth.marathon.mesos"
+         :port 5000}}}
